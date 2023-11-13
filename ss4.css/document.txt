@@ -1,0 +1,54 @@
+-css là cụm từ viết tắt của Cascading Style Sheets
+
+-có 3 cách để nhúng css vào html
+    +cách 1 :CSS Inline là cách sử dụng thuộc tính (Attribute)style 
+            bên trong cặp thẻ mở
+    +cách 2 :CSS Internal là cách tạo một cặp thẻ style bên trong cặp thẻ
+            head của file html
+    +cách 3 :CSS Externallà cách  tạo ra một file có đuôi .css và sau đó link vào file
+            HTML thông qua thẻ link đặt bên trong cặp thẻ head
+* trong 3 cách trên CSS Inline sẽ có độ ưu tiên cao nhất CSS Internal và CSS External là 
+ngang nhau tuy nhiên cái nào khai báo sau sẽ được lựa chọn
+
+-CSS Selector (bộ chọn CSS)
+    +CSS theo tên thẻ
+    +CSS theo ID: trong 1 thuộc tính ID thì không thể xuất hiện ID thứ 2
+                kí hiệu khi sử dụng :#
+    +CSS theo class:trong một class có thể có nhiều tên khác nhau .mỗi class khác nhau 
+                    có thuộc tính khác nhau.ký hiệu khi sử dụng là dấu .tên_class
+        - quy tắc đặt tên class :
+            +phải có ý nghĩa
+            +nếu class có nhiều từ thì nó sẽ được nối với nhau bằng kí tự dấu "-"
+                VD: forn-40,text-blue
+    
+-mô hình Box Model gồm 4 thành phần :
+     +content là phần chứa nội dung của khối 
+     +padding là phần đệm của nội dung tính từ content đến boder
+     +boder là phần tính từ padding đến margin
+     +margin là phần bên ngoài
+-Đơn vị : px(đơn vị tuyệt đối) và % (đơn vị tương đối)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

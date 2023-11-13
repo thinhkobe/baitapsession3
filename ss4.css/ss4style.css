@@ -1,0 +1,33 @@
+/* reset css: */
+/* không làm thay đổi kích thước ban đầu của phần tử = kích thước cố định-padding=content*/
+ /* đây là bước không thể quên cho CSS dự án ban đầu  */
+*{box-sizing: border-box;
+  margin:0;
+padding:0}
+
+h3{
+    color: aqua;
+}
+.text1{
+    color: red;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size:30px;
+    background-color: yellow;
+}
+
+.square{
+     width: 200px;
+     height: 200px;
+     background-color: red;
+    text-align: center;
+    line-height: 200px;
+    padding: 10px 20px 30px;
+    /* padding: 10px 20px 30px 40px; */
+    ;
+    border: 20px color(black);
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+    
